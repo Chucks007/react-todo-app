@@ -52,7 +52,7 @@ class App extends React.Component {
     })
 
   }
-  setUpdate(text,key){
+  setUpdate(text, key){
     console.log("items:"+this.state.items);
     const items = this.state.items;
     items.map(item=>{      
